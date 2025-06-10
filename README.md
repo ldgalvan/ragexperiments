@@ -2,14 +2,14 @@
 
 Example: What are the 8 required elements of a valid HIPPA autorization form?
 
-LLM w/ RAG:  "The HIPAA Privacy Rule sets out specific requirements for valid authorizations for the use and disclosure of protected health information (PHI) under \u00a7164.508(c). The following eight elements are required in a valid HIPAA authorization form:
+LLM w/ RAG:
 - Description of the information to be used or disclosed: The authorization must specify the PHI that is to be used or disclosed.
 - Name or title of the person, or the organization, entity, or business associates authorized to make the requested use or disclosure.
 - Purpose of the requested use or disclosure: The authorization must state the purpose of the requested use or disclosure.
 ....
 
 
-LLM w/out RAG: "Under HIPAA (Health Insurance Portability and Accountability Act) regulations, a valid authorization form for the disclosure of protected health information (PHI) must contain the following eight elements as specified in \u00a7164.508(c):\n\n1.
+LLM w/out RAG:
 - Name of the person who is authorizing the use or disclosure of the protected health information (PHI). This is the individual who is granting permission for their PHI to be shared.
 - A description of the PHI to be used or disclosed. This should be specific enough to clearly identify the information being shared.
 - The name of the person(s) or entity who may make the requested use or disclosure of the PHI. This is the person or organization that will be receiving and using the PHI.
