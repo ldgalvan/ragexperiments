@@ -23,8 +23,7 @@ LLM w/out RAG: "Under HIPAA (Health Insurance Portability and Accountability Act
 - A date on which the individual signed the authorization. This is the date when the individual granted permission for their PHI to be shared.
 - A statement of the individual's right to revoke the authorization. This statement should inform the individual that they have the right to revoke their authorization in writing at any time, and that this revocation will be honored by the person or organization that received the authorization.
 
-Goal: Equip Mistral-7B with relevant context and solid answering for questions in relevant domains.
-
+**Analysis**: Incorporating RAG results in more structured and complete responses, reducing unnecessary elaboration compared to using the LLM alone. This enhances both clarity and coherence. Notably, the use of a limited set of 10 documents introduces only a minimal increase in computational overhead.
 We explore RAG for applying regulatory compliance to 3 common LLMs. 
 
     "thenlper/gte-large",
