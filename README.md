@@ -15,7 +15,7 @@ LLM w/out RAG:
 - The name of the person(s) or entity who may make the requested use or disclosure of the PHI. This is the person or organization that will be receiving and using the PHI.
 ....
 
-**Analysis**: Incorporating RAG results in more structured and complete responses, reducing unnecessary elaboration compared to using the LLM alone. This enhances both clarity and coherence. Notably, the use of a limited set of 10 documents introduces only a minimal increase in computational overhead.
+**Analysis**: Incorporating RAG results in more concise and complete responses, reducing unnecessary elaboration compared to using the LLM alone. This enhances both clarity and coherence. Notably, the use of a limited set of 10 documents introduces only a minimal increase in computational overhead.
 
 We evaluate Retrieval-Augmented Generation (RAG) techniques for regulatory compliance by benchmarking three widely used embedding models:
 
