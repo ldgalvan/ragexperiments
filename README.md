@@ -1,5 +1,7 @@
 # 1.) RAG System for Regulatory Compliance 
 
+**Implementation Example:** To evaluate RAG’s impact on compliance accuracy, we processed 10 critical regulatory PDFs (HIPAA, SOC2, FedRAMP) and utilized mistralai/Mistral-7B-Instruct-v0.2 for answer generation.
+
 Example: What are the 8 required elements of a valid HIPPA autorization form?
 
 LLM w/ RAG:
