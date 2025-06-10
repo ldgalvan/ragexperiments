@@ -2,7 +2,7 @@
 
 **Implementation Example:** To evaluate RAG’s impact on compliance accuracy, we processed 10 critical regulatory PDFs (HIPAA, SOC2, FedRAMP) and utilized mistralai/Mistral-7B-Instruct-v0.2 for answer generation.
 
-Example: What are the 8 required elements of a valid HIPPA autorization form?
+Prompt: What are the 8 required elements of a valid HIPPA autorization form?
 
 LLM w/ RAG:
 - Description of the information to be used or disclosed: The authorization must specify the PHI that is to be used or disclosed.
