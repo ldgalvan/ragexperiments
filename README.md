@@ -16,13 +16,16 @@ LLM w/out RAG: "Under HIPAA (Health Insurance Portability and Accountability Act
 ....
 
 **Analysis**: Incorporating RAG results in more structured and complete responses, reducing unnecessary elaboration compared to using the LLM alone. This enhances both clarity and coherence. Notably, the use of a limited set of 10 documents introduces only a minimal increase in computational overhead.
-We explore RAG for applying regulatory compliance to 3 common LLMs. 
 
-    "thenlper/gte-large",
-    "intfloat/e5-large-v2",
-    "sentence-transformers/all-mpnet-base-v2"
+We evaluate Retrieval-Augmented Generation (RAG) techniques for regulatory compliance by benchmarking three widely used embedding models:
 
-We leverage FAISS for the vector db
+- thenlper/gte-large
+
+- intfloat/e5-large-v2
+
+- sentence-transformers/all-mpnet-base-v2
+
+**Overview**
 
 1. **Document Collection**  
    Gather regulatory PDFs (e.g., HIPAA, SOC 2, FedRAMP).
